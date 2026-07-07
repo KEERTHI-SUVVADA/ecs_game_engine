@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\2bf5a6d347d9053783681eaad41377d9\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B984452B-D694-309C-813B-8F1538C6CB1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

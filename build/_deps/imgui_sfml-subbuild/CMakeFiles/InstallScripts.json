@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"E:/ECS/build/_deps/imgui_sfml-subbuild/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

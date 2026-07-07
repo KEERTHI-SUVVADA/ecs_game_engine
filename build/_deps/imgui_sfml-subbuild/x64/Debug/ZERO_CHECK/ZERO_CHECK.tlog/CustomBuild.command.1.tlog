@@ -1,0 +1,10 @@
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\2BF5A6D347D9053783681EAAD41377D9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/ECS/build/_deps/imgui_sfml-subbuild -BE:/ECS/build/_deps/imgui_sfml-subbuild --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

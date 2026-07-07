@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\bc891c0ff95a85619c1ad9fb334b21e5\imgui_sfml-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\a55b5b91d54bf7b73dcffd9cd4faf68f\imgui_sfml-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\2bf5a6d347d9053783681eaad41377d9\imgui_sfml-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\ECS\build\_deps\imgui_sfml-subbuild\CMakeFiles\imgui_sfml-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{B984452B-D694-309C-813B-8F1538C6CB1D}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

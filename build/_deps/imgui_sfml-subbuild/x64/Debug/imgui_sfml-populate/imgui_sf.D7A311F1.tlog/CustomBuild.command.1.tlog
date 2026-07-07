@@ -1,0 +1,150 @@
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-MKDIR.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -Dcfgdir=/Debug -P E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/tmp/imgui_sfml-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-DOWNLOAD.RULE
+setlocal
+cd E:\ECS\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/tmp/imgui_sfml-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-UPDATE.RULE
+setlocal
+cd E:\ECS\build\_deps\imgui_sfml-src
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/tmp/imgui_sfml-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-PATCH.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-CONFIGURE.RULE
+setlocal
+cd E:\ECS\build\_deps\imgui_sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-BUILD.RULE
+setlocal
+cd E:\ECS\build\_deps\imgui_sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-INSTALL.RULE
+setlocal
+cd E:\ECS\build\_deps\imgui_sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\BC891C0FF95A85619C1AD9FB334B21E5\IMGUI_SFML-POPULATE-TEST.RULE
+setlocal
+cd E:\ECS\build\_deps\imgui_sfml-build
+if %errorlevel% neq 0 goto :cmEnd
+E:
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\A55B5B91D54BF7B73DCFFD9CD4FAF68F\IMGUI_SFML-POPULATE-COMPLETE.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E make_directory E:/ECS/build/_deps/imgui_sfml-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/CMakeFiles/Debug/imgui_sfml-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+"C:\Program Files\CMake\bin\cmake.exe" -E touch E:/ECS/build/_deps/imgui_sfml-subbuild/imgui_sfml-populate-prefix/src/imgui_sfml-populate-stamp/Debug/imgui_sfml-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKEFILES\2BF5A6D347D9053783681EAAD41377D9\IMGUI_SFML-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^E:\ECS\BUILD\_DEPS\IMGUI_SFML-SUBBUILD\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/ECS/build/_deps/imgui_sfml-subbuild -BE:/ECS/build/_deps/imgui_sfml-subbuild --check-stamp-file E:/ECS/build/_deps/imgui_sfml-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
